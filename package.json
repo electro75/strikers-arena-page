@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5"
@@ -10,7 +12,7 @@
   "scripts": {
     "start": "react-scripts start",
     "start-client": "PORT=8080 react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && nodemon server.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
